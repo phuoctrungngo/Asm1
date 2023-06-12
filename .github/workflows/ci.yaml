@@ -36,7 +36,7 @@ jobs:
           - false
 
     steps:
-      - uses: actions/checkout@v3.0.2
+      - uses: actions/checkout@v3.5.3
 
       - name: Setup Conda Environment
         uses: conda-incubator/setup-miniconda@v2.1.1
